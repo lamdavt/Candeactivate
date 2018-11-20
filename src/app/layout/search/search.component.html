@@ -1,0 +1,9 @@
+<div class="card-body">
+  <form>
+    <div class="form-control">
+      <label>Name</label>
+      <input (keyup)="searchTerm$.next($event.target.value)" class="input-field"/>
+      Name: {{result}} <br> Thời gian: {{resultTime}}
+    </div>
+  </form>
+</div>

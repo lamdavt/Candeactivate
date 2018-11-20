@@ -1,0 +1,9 @@
+<div class="card-body">
+  <form #form="ngForm" (ngSubmit)="submit()">
+    <div class="form-control">
+      <label>Name</label>
+      <input class="input-field" [(ngModel)]="name" name="name" />
+      <button class="btn" type="submit">Submit</button>
+    </div>
+  </form>
+</div>

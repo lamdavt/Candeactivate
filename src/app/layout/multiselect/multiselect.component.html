@@ -1,0 +1,10 @@
+<div class="card-body">
+  <input type="checkbox" [(ngModel)]="isCheckedName" (change)="checkValue(isCheckedName?'A':'B')" />
+  <label for="">Name</label>
+  <br>
+  <input type="checkbox" [(ngModel)]="isCheckedAge" (change)="checkValue(isCheckedAge?'A':'B')" />
+  <label for="">Age</label>
+  <br>
+  <input type="checkbox" [(ngModel)]="isCheckedHometown" (change)="checkValue(isCheckedHometown?'A':'B')" />
+  <label for="">Hometown</label>
+</div>
